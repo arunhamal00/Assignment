@@ -4,7 +4,7 @@ class CsvParser
     public void Parse()
     {
         // Read file
-        string filePath = @"D:\AppSoft\Training\NETSDKandCSharpLangauge\Assignment1\PeopleManagement\Data\People.csv";
+        string filePath = @"E:\Assignment\PeopleManagement\Data\People.csv";
         var lines = File.ReadAllLines(filePath);
         
         // Parsing
